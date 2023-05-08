@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Café de CPE</title>
+    
+    <link rel="icon" href="/image/tab-icon.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <a href="#" class="logo">Café de CPE <i class="fas fa-mug-hot"></i></a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#book">reservation</a>
+        <a href="#footer">contact us</a>
+      </nav>
+
+      <a href="#book" class="btn">reserve a table</a>
+    </header>
+
+    <section class="home" id="home">
+      <div class="row">
+        <div class="content">
+          <h3>fresh coffee in the morning</h3>
+          <a href="#menu" class="btn">buy one now</a>
+        </div>
+
+        <div class="image">
+          <img src="image/home-img-1.png" class="main-home-image" alt="" />
+        </div>
+      </div>
+
+      <div class="image-slider">
+        <img src="image/home-img-1.png" alt="" />
+        <img src="image/home-img-2.png" alt="" />
+        <img src="image/home-img-3.png" alt="" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h1 class="heading">about us <span>why choose us</span></h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="/image/about-img.png" alt="" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">what makes our coffee special?</h3>
+          <p>
+            Our coffee is special because it is made from ground coffee, we made
+            them fresh everyday and we made it with love.
+          </p>
+          <a href="#" class="btn">read more</a>
+          <div class="icons-container">
+            <div class="icons">
+              <img src="image/about-icon-1.png" alt="" />
+              <h3>quality coffee</h3>
+            </div>
+            <div class="icons">
+              <img src="image/about-icon-2.png" alt="" />
+              <h3>our branches</h3>
+            </div>
+            <div class="icons">
+              <img src="image/about-icon-3.png" alt="" />
+              <h3>free delivery</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h1 class="heading">our menu <span>popular menu</span></h1>
+
+      <div class="box-container">
+        <a href="#menu" class="box">
+          <img src="image/menu-1.png" alt="" />
+          <div class="content">
+            <h3>Caramel Macchiato</h3>
+            <p>
+              Caramel macchiato sometimes called espresso macchiato, is an
+              espresso coffee drink with a small amount of milk, usually foamed.
+            </p>
+            <span>₱150</span>
+          </div>
+        </a>
+
+        <a href="#menu" class="box">
+          <img src="image/menu-2.png" alt="" />
+          <div class="content">
+            <h3>French Vanilla latte</h3>
+            <p>
+              Made with skim milk frothed to perfection, sugar-free vanilla
+              syrup, and a shot of smooth espresso.
+            </p>
+            <span>₱150</span>
+          </div>
+        </a>
+
+        <a href="#menu" class="box">
+          <img src="image/menu-3.png" alt="" />
+          <div class="content">
+            <h3>Hazelnut Coffee</h3>
+            <p>
+              There are two different types of hazelnut coffee: whole beans
+              infused with natural or synthetic hazelnut oils and regular coffee
+              beans that have hazelnut syrup added to a drink mixture.
+            </p>
+            <span>₱130</span>
+          </div>
+        </a>
+
+        <a href="#menu" class="box">
+          <img src="image/menu-4.png" alt="" />
+          <div class="content">
+            <h3>Americano Coffee</h3>
+            <p>
+              Americano, combines freshly pulled shots of espresso with hot
+              water to achieve the size of a standard cup of brewed coffee.
+            </p>
+            <span>₱80</span>
+          </div>
+        </a>
+
+        <a href="#menu" class="box">
+          <img src="image/menu-5.png" alt="" />
+          <div class="content">
+            <h3>Spanish Latte</h3>
+            <p>
+              The Cafe con Leche is basically espresso-based coffee with milk,
+              sweetened using condensed milk.
+            </p>
+            <span>₱130</span>
+          </div>
+        </a>
+
+        <a href="#menu" class="box">
+          <img src="image/menu-6.png" alt="" />
+          <div class="content">
+            <h3>Signature Coffee</h3>
+            <p>GAWA PO NAMIN.</p>
+            <span>₱150</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="review" id="review">
+      <h1 class="heading">reviews <span>what people says</span></h1>
+
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="image/karl.png" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>VERY GOOD COFFEE!!!!!</p>
+            <h3>Karl Lee James L. Halina</h3>
+            <span>satisfied client</span>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="image/symon.png" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>COFFEELICIOUS!!!</p>
+            <h3>Symon Faith M. Bonagua</h3>
+            <span>satisfied client</span>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="image/alvin.png" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>BABALIKAN KO 'TO</p>
+            <h3>Al Vincent B. Nicdao</h3>
+            <span>satisfied client</span>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="image/albert.png" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>SOOOOOOOOO REFRESHINGGGGGGG</p>
+            <h3>Jhio Albert Cajudo</h3>
+            <span>satisfied client</span>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="image/mj.png" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>DI AKO MAKAKATULOG SA PRICE!!!!!</p>
+            <h3>Mark Jhon Rien C. San Marcos</h3>
+            <span>satisfied client</span>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="book" id="book">
+      <h1 class="heading">booking <span>reserve a table</span></h1>
+
+      <form action="">
+        <input type="text" placeholder="Name" class="box" />
+        <input type="email" placeholder="Email" class="box" />
+        <input type="number" placeholder="Number" class="box" />
+        <textarea
+          name=""
+          placeholder="Message"
+          class="box"
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="submit" value="send message" class="btn" />
+      </form>
+    </section>
+
+    <section class="footer" id="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>our branches</h3>
+          <a href="#"><i class="fas fa-arrow-right"></i> Rizal </a>
+          <a href="#"><i class="fas fa-arrow-right"></i> Laguna</a>
+          <a href="#"><i class="fas fa-arrow-right"></i> Manila</a>
+          <a href="#"><i class="fas fa-arrow-right"></i> Baguio</a>
+          <a href="#"><i class="fas fa-arrow-right"></i> Cavite</a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-arrow-right"></i> home</a>
+          <a href="#about"><i class="fas fa-arrow-right"></i> about</a>
+          <a href="#menu"><i class="fas fa-arrow-right"></i> menu</a>
+          <a href="#review"><i class="fas fa-arrow-right"></i> review</a>
+          <a href="#book"><i class="fas fa-arrow-right"></i> reservation</a>
+        </div>
+
+        <div class="box">
+          <h3>contact us</h3>
+          <a href="#"><i class="fas fa-phone"></i> 0912-3456-789</a>
+          <a href="#"><i class="fas fa-phone"></i> 0998-7654-321</a>
+          <a href="#"><i class="fas fa-envelope"></i> cafédecpe@gmail.com</a>
+          <a href="#"
+            ><i class="fas fa-envelope"></i> University of Rizal System -
+            Morong</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>social medias</h3>
+          <a
+            href="https://www.facebook.com/profile.php?id=100092383208705&mibextid=ZbWKwL"
+            ><i class="fab fa-facebook-f"></i> facebook</a
+          >
+          <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+        </div>
+
+        <div class="box">
+          <h3>Sample Video</h3>
+          <video width="330" height="250" controls>
+            <source src="/image/coffee-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+          </div>
+        </div>
+      </div>
+
+      <div class="credit">all rights reserved</div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+    <div class="audio">
+      <audio controls autoplay>
+        <source src="/image/bgm.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+    
+  </body>
+</html>
